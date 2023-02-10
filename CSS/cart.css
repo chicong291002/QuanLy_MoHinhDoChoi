@@ -1,0 +1,89 @@
+
+.cart {
+	margin-top: 20px;
+	width: 100%;
+}
+.cart h1{
+	text-align: center;
+	font-size: 30px;
+}
+.cart1 {
+	margin: 50px auto;
+	margin-left: 10%;
+	width: 80%;
+}
+.cart1 table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.cart1 img {
+	width: 150px;
+}
+.cart1 i{
+	font-size: 30px;
+	color: black;
+}
+.hinh {
+	display: flex;
+	flex-wrap: wrap;
+	width: 20%;
+}
+.mota {
+	width: 80%;
+	margin-left: 10%;
+}
+.mota a{
+	font-size: 20px;
+	text-decoration: none;
+	color:dodgerblue;
+}
+.soluong {
+	width: 50px;
+	height: 20px;
+	margin-left: 20px;
+}
+th{
+	text-align: left;
+	padding: 5px;
+}
+td{
+	
+	padding: 10px 5px;
+}
+.thanhtoan i{
+	color: white;
+	font-size: 20px;
+}
+.thanhtoan {
+    margin-top: 50px;
+    text-align: center;
+}
+.thanhtoan h2,h3{
+	color:#2B2A2A;
+	text-align: center;
+	margin-bottom: 5px;
+	
+}
+
+
+textarea {
+	border: solid 1px white;
+	margin-bottom: 20px;
+	margin-left: 35px;
+}
+.thanhtoan button{
+	padding: 20px;
+	background: black;
+	color: white;
+	border-radius: 10px;
+	width: 340px;
+	margin-top: 50px;
+}
+.thanhtoan button:hover{
+	color: Red;
+	cursor:pointer;
+}
+.thanhtoan button:hover i{
+	color: Red;
+	cursor:pointer;
+}

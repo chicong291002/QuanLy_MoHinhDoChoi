@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="CSS/chitietsanpham.css" type="text/css">
+    <link href="CSS/main.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="header1">
+            <p><a href="dangnhap.html"><i class="bx bx-user-circle" ></i>Đăng nhập</a>/<a href="dangky.html">Đăng ký</a></p>
+            <p><a href="giohang.html"><i class="bx bxs-cart"></i>Giỏ hàng</a></p>
+            <h1><a href="index.html">Shop Mô Hình</a></h1>
+          </div>
+          <div class="header2"> <img src="images/banner.jpg" alt="1"/> </div>
+          <div class="header3">
+            <input class="search" type="text" list="datalist" onkeyup="show(this.value)" name="key"  placeholder="Tìm kiếm..." maxlength="50" onchange="openPage()" id="search">
+            <button class="btn-search" type="submit" ><i class="bx bx-search-alt-2" onchange="openPage()"></i></button>
+            <datalist id="datalist">
+            </datalist>
+          </div>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="khuyenmai.html">Khuyến Mãi</a></li>
+            <li><a href="huongdanmuahang.html">Hướng Dẫn Mua Hàng</a></li>
+            <li><a href="gioithieu.html">Giới Thiệu</a></li>
+            <li><a href="lienhe.html">Liên Hệ</a></li>
+          </ul>
+        </div>
+        <div class="CT">
+            <h1>MÔ HÌNH KAMEN RIDER W</h1>
+            <div><img src="images/rider1-min.jpg" alt="W"></div>
+            <div class="chitietcuthe">
+                <h2>Chi tiết sản phẩm: </h2> <br>
+                <ul>
+                    <li>Chiều cao: 20cm</li>
+                    <li>Chất liệu: PVC ABS</li>
+                    <li>Sản phẩm không kèm theo bộ đèn LED</li>
+                </ul>
+                <br>
+                <p class="gia"><b>Giá: <s>1,300,000<u>đ</u></s> 1,170,000<u>đ</u></b></p>
+                <br>
+                <p class="giohang"><a href="#">Thêm vào giỏ hàng</a></p>
+            </div>
+        </div>
+        <div class="footer">
+           <div class="ft1">
+            <div class="ft">
+                <i class="bx bx-message-dots"></i>
+                <div>
+                    <h3>Đổi Hàng</h3>
+                    <p>Đổi hàng trong 24h với điều kiện giữ nguyên hộp</p>
+                </div>
+               </div>
+            <div class="ft">
+                <i class="bx bx-heart" ></i>
+                <div>
+                    <h3>Quà Tặng</h3>
+                    <p>Tặng ngay poster hoặc huy hiệu với đơn hàng trên 350k</p>
+                </div>
+               </div>
+            <div class="ft">
+                <i class="bx bxs-truck" ></i>
+                <div>
+                    <h3>Giao Hàng</h3>
+                    <p>Giao hàng COD toàn quốc, giao tận nơi, nhanh chóng</p>
+                </div>
+               </div>
+          </div>
+          </div>
+          <script src="search.js"></script>
+  <script>
+    function openPage(){
+      var x = document.getElementById("search").value;
+      if (x == "AKA-R1" || x == "aka-r1"){
+        window.open("CT_shotgun1.html");
+      }
+      else if (x == "AKA-R2" || x == "aka-r2"){
+        window.open("CT_shotgun2.html");
+      }
+      else if (x == "AWM" || x == "awm"){
+        window.open("CT_sr1.html");
+      }
+      else if (x == "Ar" || x == "ar"){
+        window.open("MH_AR.html");
+      }
+      else if (x == "Ar-15" || x == "ar-15"){
+        window.open("CT_ar2.html");
+      }
+      else if (x == "Dragon ball" || x == "dragon ball"){
+        window.open("MH_Goku.html");
+      }
+      else if (x == "Goku" || x == "goku"){
+        window.open("CT_DB2.html");
+      }
+      else if (x == "Glock" || x == "glock"){
+        window.open("CT_pistol1.html");
+      }
+      else if (x == "Naruto" || x == "naruto"){
+        window.open("MH_Naruto.html");
+      }
+      else if (x == "Nami" || x == "nami"){
+        window.open("CT_OneP1.html");
+      }
+      else if (x == "M416" || x == "m416"){
+        window.open("CT_AR1.html");
+      }
+      else if (x == "M1911" || x == "m1911"){
+        window.open("CT_pistol2.html");
+      }
+      else if (x == "M24" || x == "m24"){
+        window.open("CT_sr2.html");
+      }
+      else if (x == "MP7" || x == "mp7"){
+        window.open("CT_smg1.html");
+      }
+      else if (x == "MP5" || x == "mp5"){
+        window.open("CT_smg2.html");
+      }
+      else if (x == "Obito" || x == "obito"){
+        window.open("CT_Naruto1.html");
+      }
+      else if (x == "Onepiece" || x == "onepiece"){
+        window.open("MH_Onepiece.html");
+      }
+      else if (x == "Itachi" || x == "itachi"){
+        window.open("CT_Naruto2.html");
+      }
+      else if (x == "Luffy" || x == "luffy"){
+        window.open("CT_OneP2.html");
+      }
+      else if (x == "Lol" || x == "lol"){
+        window.open("MH_LOL.html");
+      }
+      else if (x == "Yasuo" || x == "yasuo"){
+        window.open("CT_LOL1.html");
+      }
+      else if (x == "Zed" || x == "zed"){
+        window.open("CT_LOL2.html");
+      }
+      else if (x == "Rider" || x == "rider"){
+        window.open("MH_Rider.html");
+      }
+      else if (x == "W" || x == "w"){
+        window.open("CT_Rider1.html");
+      }
+      else if (x == "Faiz" || x == "faiz"){
+        window.open("CT_Rider2.html");
+      }
+      else if (x == "Vegeta" || x == "vegeta"){
+        window.open("CT_DB1.html");
+      }
+      else if (x == "Pistol" || x == "pistol"){
+        window.open("MH_Pistol.html");
+      }
+      else if (x == "SMG" || x == "smg"){
+        window.open("MH_SMG.html");
+      }
+      else if (x == "SR" || x == "sr"){
+        window.open("MH_SR.html");
+      }
+      else if (x == "Shotgun" || x == "shotgun"){
+        window.open("MH_Shotgun.html");
+      }
+    
+      else{
+        window.open("baoloi.html")
+      }
+      x = document.getElementById("search").value;
+    }
+  </script>
+      </div>
+</body>
+</html>

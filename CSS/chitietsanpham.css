@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.CT img {
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 360px;
+    height: 480px;
+}
+.chitietcuthe {
+    margin-top: -450px;
+    margin-left: 850px;
+}
+.chitietcuthe li {
+    font-size: 20px;
+}
+.gia {
+    font-size: 25px;
+    color: red;
+}
+.giohang {
+    border-radius: 5px;
+    background-color: rgb(0, 255, 55);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.giohang a {
+    color: white;
+    font-size: 20px;
+    line-height: 49px;
+    text-decoration: none;
+}
